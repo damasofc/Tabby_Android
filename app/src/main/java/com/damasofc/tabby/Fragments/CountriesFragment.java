@@ -21,7 +21,7 @@ import java.util.List;
  * A simple {@link Fragment} subclass.
  */
 public class CountriesFragment extends Fragment {
-    List<Person> persons;
+    public static List<Person> persons;
     ListView listView;
     private MyAdapter adapter;
     public CountriesFragment() {
